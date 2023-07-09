@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktseite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <!-- <li><h1 class="header-title">Mein Title</h1></li> -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <!-- <li><a href="themenseite">About</a></li> -->
+                <li><a href="kontaktseite.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Travel Blog Switzerland</h1>
+    </header>
+
+    <h2>Kontaktseite</h1>
+
+    <p>Name: Virginia Pelado Diaz</p>
+    <p>Adresse: Ausstellungsstrasse 70, 8005 Zürich</p>
+    <p>Telefonnummer: 077 672 45 09</p>
+    <p>Email-Adresse: virginia.pelado@edu.tbz.ch</p>
+
+    <hr>
+
+    <form action="process.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      
+        <input type="submit" value="Submit">
+      </form>
+
+<footer>
+    <p>&copy; 2023 My Web Page.</p>
+</footer>
+</body>
+</html>
